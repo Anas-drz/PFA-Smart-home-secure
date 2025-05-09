@@ -1,33 +1,38 @@
-# Projet : Maison intelligente et sécurisée
+# 🏠 Projet : Conception d’une maison intelligente et sécurisée
 
 ## 🎯 Objectifs
-- Créer un réseau IoT sécurisé pour une maison intelligente dans Packet Tracer.
-- Configurer des objets IoT (capteurs, caméras, serrures, etc.).
-- Automatiser les équipements pour le confort et l'efficacité énergétique.
-- Implémenter la cybersécurité avec TLS, authentification forte, firewall, IDS/IPS.
 
-## 🛠️ Technologies utilisées
-- **Cisco Packet Tracer** : simulation IoT (Wi-Fi, MQTT, HTTPS).
-- **GNS3** : simulation réseau avec dispositifs de sécurité avancés.
-- **JavaScript / Python** : automatisation et sécurité.
-- **Protocoles** : MQTT, HTTPS, TLS/SSL.
+- Créer un réseau **IoT sécurisé** pour une maison intelligente dans Cisco Packet Tracer.
+- Configurer et programmer des **objets IoT** (capteurs, actionneurs, caméras, serrures intelligentes).
+- **Automatiser** les équipements pour optimiser l’énergie et le confort.
+- Assurer la **cybersécurité** du réseau avec chiffrement, authentification, pare-feu et IDS/IPS.
 
-## 📂 Organisation
-- `packet_tracer/` : fichier .pkt de la maison intelligente.
-- `gns3/` : topologie GNS3 avec firewall, IDS/IPS.
-- `scripts/` : scripts pour automatisation et surveillance.
-- `config/` : configurations de sécurité (MQTT, firewall).
-- `docs/` : documentation, schémas, rapport PDF.
+---
 
-## 🔒 Sécurité
-- TLS/SSL pour chiffrer les communications MQTT/HTTPS.
-- Authentification des périphériques IoT.
-- Firewall pour filtrage réseau.
-- IDS/IPS (dans GNS3) pour détection d'intrusions.
+## 🛠️ Technologies et outils utilisés
 
-## 📸 Aperçu
-![Architecture de la maison intelligente](darchitecture.jpg)
+- **Cisco Packet Tracer** : simulation des objets connectés et réseau local.
+- **GNS3** : simulation avancée avec dispositifs de sécurité (pare-feu, IDS/IPS).
+- **Objets IoT** : capteurs de température, détecteurs de mouvement, interrupteurs connectés, caméras IP, serrures intelligentes.
+- **Protocoles de communication** : MQTT, HTTPS, Wi-Fi.
+- **Langages** : JavaScript, Python.
 
+---
 
-## 📄 Licence
-[MIT](LICENSE)
+## 🔐 Sécurité IoT
+
+- **Chiffrement TLS/SSL** pour protéger les données échangées.
+- **Authentification forte** pour éviter les intrusions.
+- **Pare-feu** et **IDS/IPS** (via GNS3) pour détecter et contrer les cyberattaques.
+- **Scripts personnalisés** pour automatisation et surveillance.
+
+---
+
+## 🧠 Architecture du système
+
+<p align="center">
+  <img src="archetecture.jpg" alt="Architecture de la maison intelligente" width="600"/>
+</p>
+
+---
+
