@@ -26,7 +26,8 @@
 - IDS/IPS (dans GNS3) pour détection d'intrusions.
 
 ## 📸 Aperçu
-*(Insérer ici un schéma de l'architecture ou capture d’écran)*
+![Architecture de la maison intelligente](darchitecture.jpg)
+
 
 ## 📄 Licence
 [MIT](LICENSE)
